@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-1{
+   
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+}
+.bg-custom-2{
+   
+    background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+}
