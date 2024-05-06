@@ -4,13 +4,11 @@ import { createBrowserRouter } from "react-router-dom";
 import PageLayout from "./layouts/PageLayout";
 import About from "./pages/About";
 import AddMaterial from "./pages/AddMaterial";
-import Admin from "./pages/Admin";
 import AllMateri from "./pages/AllMateri";
 import DetailMateri from "./pages/DetailMateri";
 import Evaluasi from "./pages/Evaluasi";
 import Forum from "./pages/Forum";
 import Home from "./pages/Home";
-import MateriList from "./pages/MateriList";
 import NotFound from "./pages/NotFound";
 
 const createRouter = createBrowserRouter([
