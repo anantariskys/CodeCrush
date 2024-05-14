@@ -80,8 +80,8 @@ const AllMateri = () => {
                   <img src={item.imageUrl} className="absolute top-0 left-0 w-full h-full group-hover:scale-110 group-hover:rotate-2 duration-200 ease-in-out " alt="" />
                   <div className="w-full h-full absolute top-0 left-0 opacity-50 bg-black z-20"></div>
                   <div className="relative z-30">
-                    <h3 className="text-2xl text-custom-white text-center font-semibold">{item.title}</h3>
-                    <h3 className="text-sm text-center text-custom-white font-semibold">Category :{item.category}</h3>
+                    <h3 className="text-sm lg:text-2xl text-custom-white text-center font-semibold">{item.title}</h3>
+                    <h3 className="text-xs lg:text-sm text-center text-custom-white font-semibold">Category :{item.category}</h3>
                   </div>
                 </div>
               </Link>
