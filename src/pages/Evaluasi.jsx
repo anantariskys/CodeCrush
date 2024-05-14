@@ -37,7 +37,7 @@ const Evaluasi = () => {
       >
         <div className="py-10 px-40 rounded-sm bg-black bg-opacity-30">
           <h1 className="text-8xl font-bold">Evaluasi</h1>
-          <p className="text-lg">Uji pengetahuan dan pemahamanmu disini !!!</p>
+          <p className="text-xl">Uji pengetahuan dan pemahamanmu disini !!!</p>
         </div>
       </header>
       <section className="container mx-auto flex flex-col gap-2 md:gap-5 px-5 md:px-20 lg:px-40 py-20 ">
