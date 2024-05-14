@@ -76,8 +76,8 @@ const AllMateri = () => {
           {!loading &&
             currentData.map((item, index) => (
               <Link to={`/materi/${item.id}`} key={index}>
-                <div className="w-full items-center justify-center flex aspect-video bg-custom-white p-2 relative rounded hover:shadow-2xl duration-300 ease-in-out hover:-translate-y-1">
-                  <img src={item.imageUrl} className="absolute top-0 left-0 w-full h-full " alt="" />
+                <div className="w-full items-center justify-center flex aspect-video overflow-hidden group bg-custom-white p-2 relative rounded hover:shadow-2xl duration-300 ease-in-out hover:-translate-y-1">
+                  <img src={item.imageUrl} className="absolute top-0 left-0 w-full h-full group-hover:scale-110 group-hover:rotate-2 duration-200 ease-in-out " alt="" />
                   <div className="w-full h-full absolute top-0 left-0 opacity-50 bg-black z-20"></div>
                   <div className="relative z-30">
                     <h3 className="text-2xl text-custom-white text-center font-semibold">{item.title}</h3>
